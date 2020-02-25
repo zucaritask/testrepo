@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+  check_suite:
+    type: ['completed']
 
 jobs:
   nightly-merge:
