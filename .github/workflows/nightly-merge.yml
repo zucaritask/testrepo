@@ -9,7 +9,7 @@ on:
 
 jobs:
   nightly-merge:
-
+    if: github.event.check_suite.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
