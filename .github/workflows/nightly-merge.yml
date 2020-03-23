@@ -29,6 +29,7 @@ jobs:
         status: ${{ job.status }}
         author_name: Merge master to staging
         icon_emoji: ":octocat:"
+        username: Automerge to Staging 
         only_mention_fail: here
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
